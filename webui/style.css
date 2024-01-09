@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #dadada;
+}
+
+#left{
+    height: 100%;
+    width: 80%;
+}
+
+#left #ltop{
+    height: 70%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1466781783364-36c955e42a7f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+
+}
+
+#left #lbottom{
+    height: 30%;
+    width: 100%;
+    background-color: #222;
+    color: white;
+    padding: 100px;
+
+}
+
+#lbtmcontent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#cntntleft{
+    width: 45%;
+    height: 100%;
+}
+
+#cntntleft p{
+    margin-top: 45px;
+    width: 70%;
+    font-size: 12px;
+
+}
+#cntntright{
+    width: 45%;
+    height: 100%;
+}
+
+.relem{
+    display: flex;
+}
+
+.row{
+    padding-right: 200px;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+.relemtext{
+    margin-left: 10px;
+}
+
+.relem i{
+    color: rgb(42, 186, 42);
+}
+
+.relemtext h6{
+    opacity: 0.5 ;
+    font-weight: 500;
+}
+#right{
+    height: 100%;
+    width: 20%;
+}
+
+#right #rtop{
+    position: relative ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    padding: 70px;
+}
+
+#rtop a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: montserrat;
+
+} 
+
+#rtop #selected{
+    position: relative;
+    margin-left: 20px;
+}
+
+#rtop #selected::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 7px;
+    width: 10px;
+    height: 2px;
+    background-color: black;
+}
+
+#icon{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#icon i{
+    font-size: 20px;
+}
+
+#btmflower{
+    width:100px;
+    
+}
+
+#right #rbottom {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-image: url(https://images.unsplash.com/photo-1533038590840-1cde6e668a91?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+
+#capsule{
+    position: absolute;
+    bottom: 5%;
+    left:50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#capsule h6{
+    font-size: 20px;
+    font-weight: 900;
+}
+#capsule h2{
+    margin-top: 10px;
+    line-height:1;
+    font-size: 19px;
+}
+
+#capsule p{
+    font-size:12px ;
+    width: 90%;
+    opacity: .5;
+    font-weight: 600;
+}
