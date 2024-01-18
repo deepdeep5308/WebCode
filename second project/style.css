@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#main{
+    display: flex;
+    width:100%;
+    height: 100%;
+    background-color: #AA969A;
+}
+
+
+#mtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    z-index: 999;
+    color: white;
+}
+
+#mtext h1{
+    user-select: none;
+    white-space: nowrap;
+    font-family: "Voyage";
+    font-size: 9vw;
+}
+
+#mtext h3{
+    user-select: none;
+    white-space: nowrap;
+    font-family: "Voyage";
+    font-size: 4vw;
+    line-height: 1;
+}
+
+#left{
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 45%;
+    background-color: #967F7B ;
+}
+
+#nav{
+    padding: 60px 60px;
+    display: flex;
+    gap: 100px;
+    color: white;
+    align-items: center;
+}
+
+#nav h3{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+#nav a{
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-style: 12px;
+}
+
+#centerimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 60%;
+    background-image: url(https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-color: blue;
+    background-size: cover;
+
+    
+}
+
+#centerimg #text{
+    
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 110%;
+    height: 50px;
+    color: white;
+
+
+}
+
+#text #parts{
+    width: 30%;
+
+}
+#parts h5{
+    margin-bottom: 20px;
+}
+
+#text #para{
+    width: 70%;
+    
+}
+
+#para p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#scroll{
+    display: flex;
+    position: absolute;
+    bottom: -10%;
+    align-items: center;
+    transform-origin: 0% 50%;
+    transform: rotate(-90deg);
+    left: 10%;
+    gap: 20px;
+}
+
+#scroll h5{
+    letter-spacing: 10px;
+    color: white;
+}
+
+#scroll #line{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+}
+
+#center{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1536237145560-4473f94e8cd2?q=80&w=1921&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+
+#center #card{
+    display: flex;
+    position: absolute;
+    right: -5%;
+    bottom: 7%;
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    z-index: 999;
+}
+
+#card #cicons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    background-color: greenyellow;
+    
+}
+
+#card #cimage{
+    width: 90%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1683009427513-28e163402d16?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-color: aqua;
+
+}
+
+#right{
+    height: 100%;
+    width: 5%;
+
+}
+
+#relem{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#relem #rlink{
+    display: flex;
+    transform: rotate(-90deg);
+    gap: 50px;
+}
+
+#relem #rlink a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ri-search-2-line{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    top: 80px;
+    width: 50%;
+
+}
